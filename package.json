@@ -1,6 +1,6 @@
 {
   "name": "@juananton/react-component-library-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A template for a React component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "rollup": "^2.79.1",
     "rollup-plugin-dts": "^4.2.3",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^4.4.4"
   },
   "main": "dist/cjs/index.js",
