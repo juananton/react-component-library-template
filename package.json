@@ -1,7 +1,7 @@
 {
-  "name": "react-library",
+  "name": "@juananton/react-component-library-template",
   "version": "1.0.0",
-  "description": "React component library",
+  "description": "A template for a React component library",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -22,5 +22,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/juananton"
+  }
 }
